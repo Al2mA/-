@@ -1,0 +1,227 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+nav .f {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 0px 2px 31px 0px rgba(0, 0, 0, 0.1);
+}
+nav .f a {
+  text-decoration: none;
+}
+nav .f .a {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+nav .f h5 {
+  color: #0089D7;
+  font-family: Kreadon;
+  font-size: 29.179px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+.container h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: blue;
+  font-family: Kreadon;
+  font-size: 59.355px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .box {
+  background-image: url(../img/сумеру.png);
+  width: 1401px;
+  height: 450px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+.container .box h2 {
+  padding-left: 119px;
+  padding-bottom: 93px;
+  padding-top: 61px;
+  color: #FFF;
+  font-family: Kreadon;
+  font-size: 55.619px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .box p {
+  padding-left: 119px;
+  padding-bottom: 93px;
+  color: #FFF;
+  font-family: Kreadon;
+  font-size: 31.277px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .box .but {
+  padding-left: 119px;
+  padding-bottom: 61px;
+}
+.container .box .but button {
+  align-items: center;
+  width: 213px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+}
+.container .box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.container .box2 .min h2 {
+  color: blue;
+  font-family: Kreadon;
+  font-size: 61.725px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.container .box2 .min p {
+  color: #000;
+  font-family: Kreadon;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+.container .box2 .min button {
+  align-items: center;
+  width: 213px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+}
+.container .box4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.container .box4 .elem {
+  padding: 10px 21px;
+  gap: 30px;
+  border-radius: 20px;
+  background: #EDEDED;
+  box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.05);
+}
+.container .box4 .elem p {
+  margin-top: 30px;
+  color: blue;
+  font-family: Kreadon;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .box5 h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: blue;
+  font-family: Kreadon;
+  font-size: 61.725px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .box6 {
+  background-image: url(../img/сумеру.png);
+  width: 1401px;
+  height: 370pxpx;
+  border-radius: 30px;
+}
+.container .box6 p {
+  text-align: center;
+  padding-top: 25px;
+  color: #FFF;
+  text-align: center;
+  font-family: Kreadon;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .box6 .btn {
+  padding: 15px 20px;
+  align-items: center;
+}
+.container .box6 .btn button {
+  margin-left: 425px;
+  margin-top: 194px;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+}
+.container .box_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.container .box_1 a {
+  color: #000;
+  font-family: Kreadon;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+.container .box_1 .box_2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.container .box_3 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .box_3 a {
+  text-decoration: none;
+  color: #6B6B6B;
+  font-family: Kreadon;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container .box_3 .text {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */

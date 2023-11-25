@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .f {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-shadow: 0px 2px 31px 0px rgba(0, 0, 0, 0.10);
+
+        a {
+            text-decoration: none;
+        }
+
+        .a {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        h5 {
+            color: #0089D7;
+            font-family: Kreadon;
+            font-size: 29.179px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+
+
+
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: blue;
+        font-family: Kreadon;
+        font-size: 59.355px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .box {
+        background-image: url(../img/сумеру.png);
+        width: 1401px;
+        height: 450px;
+        border-radius: 30px;
+        margin-bottom: 100px;
+
+        h2 {
+            padding-left: 119px;
+            padding-bottom: 93px;
+            padding-top: 61px;
+            color: #FFF;
+            font-family: Kreadon;
+            font-size: 55.619px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        p {
+            padding-left: 119px;
+            padding-bottom: 93px;
+            color: #FFF;
+            font-family: Kreadon;
+            font-size: 31.277px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .but {
+            padding-left: 119px;
+            padding-bottom: 61px;
+
+            button {
+                align-items: center;
+                width: 213px;
+                height: 40px;
+                border-radius: 10px;
+                color: white;
+                background-color: blue;
+            }
+        }
+    }
+
+
+
+    .box2 {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
+        .min {
+
+            h2 {
+                color: blue;
+                font-family: Kreadon;
+                font-size: 61.725px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 15px;
+            }
+
+            p {
+                color: #000;
+                font-family: Kreadon;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 25px;
+            }
+
+            button {
+                align-items: center;
+                width: 213px;
+                height: 40px;
+                border-radius: 10px;
+                color: white;
+                background-color: blue;
+            }
+
+        }
+    }
+
+
+
+
+    .box4 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        .elem {
+            padding: 10px 21px;
+            gap: 30px;
+
+            border-radius: 20px;
+            background: #EDEDED;
+            box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.05);
+
+            p {
+                margin-top: 30px;
+                color: blue;
+                font-family: Kreadon;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+    }
+
+
+    .box5 {
+
+        h2 {
+            margin-top: 50px;
+            margin-bottom: 10px;
+            color: blue;
+            font-family: Kreadon;
+            font-size: 61.725px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    .box6 {
+        background-image: url(../img/сумеру.png);
+        width: 1401px;
+        height: 370pxpx;
+        border-radius: 30px;
+
+        p {
+            text-align: center;
+            padding-top: 25px;
+            color: #FFF;
+            text-align: center;
+            font-family: Kreadon;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .btn {
+            padding: 15px 20px;
+            align-items: center;
+
+            button {
+                margin-left: 425px;
+                margin-top: 194px;
+                width: 500px;
+                height: 40px;
+                border-radius: 10px;
+                color: white;
+                background-color: blue;
+            }
+        }
+    }
+
+
+
+
+
+    .box_1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+        a {
+            color: #000;
+            font-family: Kreadon;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-decoration: none;
+        }
+
+        .box_2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+    }
+
+    .box_3 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: #6B6B6B;
+            font-family: Kreadon;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .text {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+    }
+}
